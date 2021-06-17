@@ -17,6 +17,7 @@ namespace Catalog.API.Controllers
         private readonly IProductRepository _repository;
         private readonly ILogger<CatalogController> _logger;
 
+
         public CatalogController(IProductRepository repository, ILogger<CatalogController> logger)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));

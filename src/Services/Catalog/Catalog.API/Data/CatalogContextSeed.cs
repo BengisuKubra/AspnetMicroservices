@@ -16,6 +16,7 @@ namespace Catalog.API.Data
             {
                 productCollection.InsertManyAsync(GetPreconfiguredProducts());
             }
+
         }
 
         private static IEnumerable<Product> GetPreconfiguredProducts()
